@@ -14,7 +14,7 @@ var runParallel = require('run-parallel')
 var writemarkdown = require('./writemarkdown.js')
 var writehtml = require('./writehtml.js')
 
-const githubApiBaseUrl = 'https://api.github.com'
+const githubApiBaseUrl = 'https://github.ibm.com/api/v3'
 var headers = {'user-agent': 'offline-issues module'}
 var issueData = []
 
